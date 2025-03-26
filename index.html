@@ -320,31 +320,29 @@
             <!-- Reach -->
             <div class="column right">
               <div class="text">Message me</div>
-              <div class="column right">
-                <div class="text">Message me</div>
-                <form action="sendMail.php" method="POST">
-                  <div class="fields">
-                    <div class="field name">
-                      <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="field email">
-                      <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
+              <form action="sendMail.php" method="POST">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" name="name" placeholder="Your Name" required>
                   </div>
-                  <div class="field">
-                    <input type="text" name="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="field textarea">
-                    <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
-                  </div>
-                  <div class="button-area">
-                    <button type="submit">Send message</button>
-                  </div>
-                </form>
-              </div>
+                  <div class="field email">
+                     <input type="email" name="email" placeholder="Your Email" required>
+                   </div>
+                 </div>
+                 <div class="field">
+                   <input type="text" name="subject" placeholder="Subject" required>
+                 </div>
+                 <div class="field textarea">
+                   <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                 </div>
+                <div class="button-area">
+                  <button type="submit">Send message</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
+      </div>
       </section>
 
       <!-- Footer -->
