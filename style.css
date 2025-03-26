@@ -938,7 +938,7 @@
   }
 .column.right {
   width: 100%;
-  max-width: 600px; /* Adjust width */
+  max-width: 1200px; /* Adjust width */
   margin: auto; /* Center align */
 }
 
