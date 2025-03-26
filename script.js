@@ -56,8 +56,7 @@ $(document).ready(function () {
         "Fullstack Developer",
         "Software Developer",
         "Python Developer",
-        "Founder",
-        "Author"
+        "Front-end Developer"
       ],
       typeSpeed: 100,
       backSpeed: 60,
