@@ -40,11 +40,10 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing", {
       strings: [
+        "Front-end Developer",
         "Fullstack Developer",
         "Software Developer",
         "Python Developer",
-        "Founder",
-        "Author"
       ],
       typeSpeed: 100,
       backSpeed: 60,
